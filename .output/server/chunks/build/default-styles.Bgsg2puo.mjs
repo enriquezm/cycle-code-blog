@@ -1,8 +1,0 @@
-const default_vue_vue_type_style_index_0_scoped_f4670010_lang = ".nav[data-v-f4670010]{align-items:center;background-color:#000;display:flex;justify-content:space-between;left:0;padding:1rem 2rem;position:absolute;right:0;top:0;z-index:10}.nav a[data-v-f4670010]{color:#fff;font-weight:500;text-decoration:none}.nav a[data-v-f4670010]:hover{animation:glitch .3s ease-in-out}.main[data-v-f4670010]{padding:0}.footer[data-v-f4670010]{border-top:1px solid #eee;color:#666;font-size:.9rem;padding:2rem;text-align:center}.footer p[data-v-f4670010]{margin:0}";
-
-const defaultStyles_Bgsg2puo = [
-  default_vue_vue_type_style_index_0_scoped_f4670010_lang
-];
-
-export { defaultStyles_Bgsg2puo as default };
-//# sourceMappingURL=default-styles.Bgsg2puo.mjs.map

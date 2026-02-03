@@ -1,8 +1,0 @@
-const upload_vue_vue_type_style_index_0_scoped_de01dd17_lang = ".upload-tool[data-v-de01dd17]{background:#fff;border:1px solid #ddd;margin:2rem auto;max-width:600px;padding:2rem}.upload-form[data-v-de01dd17]{gap:1rem}.form-group[data-v-de01dd17],.upload-form[data-v-de01dd17]{display:flex;flex-direction:column}.form-group[data-v-de01dd17]{gap:.5rem}label[data-v-de01dd17]{font-weight:700}input[data-v-de01dd17]{border:1px solid #ccc;border-radius:4px;padding:.5rem}button[data-v-de01dd17]{background:#333;border:none;border-radius:4px;color:#fff;cursor:pointer;padding:1rem}button[data-v-de01dd17]:disabled{background:#ccc;cursor:not-allowed}.message[data-v-de01dd17]{border-radius:4px;margin-top:1rem;padding:1rem}.success[data-v-de01dd17]{background:#d4edda;border:1px solid #c3e6cb;color:#155724}.error[data-v-de01dd17]{background:#f8d7da;border:1px solid #f5c6cb;color:#721c24}";
-
-const uploadStyles_P05Yv5Ac = [
-  upload_vue_vue_type_style_index_0_scoped_de01dd17_lang
-];
-
-export { uploadStyles_P05Yv5Ac as default };
-//# sourceMappingURL=upload-styles.P05Yv5Ac.mjs.map

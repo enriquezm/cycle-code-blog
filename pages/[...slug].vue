@@ -17,14 +17,49 @@ const { data } = await useAsyncData(`content-${path}`, () => queryContent(path).
 const isDev = process.dev
 
 onMounted(() => {
+  setupLazyLoading()
   if (isDev) {
     addImageNumbers()
   }
 })
 
+function setupLazyLoading() {
+  const images = document.querySelectorAll('.article img')
+  
+  images.forEach((img) => {
+    // Add loading class for blur effect
+    img.classList.add('lazy-loading')
+    
+    // Set up intersection observer for lazy loading
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const image = entry.target
+          const src = image.getAttribute('src')
+          
+          // Create a new image to preload
+          const tempImg = new Image()
+          tempImg.onload = () => {
+            image.src = src
+            image.classList.remove('lazy-loading')
+            image.classList.add('lazy-loaded')
+          }
+          tempImg.src = src
+          
+          observer.unobserve(image)
+        }
+      })
+    }, {
+      rootMargin: '50px' // Start loading 50px before image enters viewport
+    })
+    
+    observer.observe(img)
+  })
+}
+
 function addImageNumbers() {
   const images = document.querySelectorAll('.article img')
-  images.forEach((img, index) => {
+  images.forEach((img) => {
     if (!img.parentElement.classList.contains('img-wrapper')) {
       const wrapper = document.createElement('div')
       wrapper.className = 'img-wrapper'
@@ -86,6 +121,20 @@ function addImageNumbers() {
 
 .article :deep(img.col-3) {
   width: 25%;
+}
+
+/* Lazy loading styles */
+.article :deep(img) {
+  transition: filter 0.3s ease;
+}
+
+.article :deep(img.lazy-loading) {
+  filter: blur(10px);
+  background: #f0f0f0;
+}
+
+.article :deep(img.lazy-loaded) {
+  filter: blur(0);
 }
 
 /* Dev mode image numbering */

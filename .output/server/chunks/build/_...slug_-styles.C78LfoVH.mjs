@@ -1,0 +1,8 @@
+const ____slug__vue_vue_type_style_index_0_scoped_150323c1_lang = ".article[data-v-150323c1]{background:#fff;font-size:18px;line-height:1.6;margin:2rem auto;max-width:800px;padding:2rem}.article h1[data-v-150323c1]{font-size:3rem;margin-bottom:2rem}.article[data-v-150323c1] p{margin:2.5rem 0}.article[data-v-150323c1] a{color:#000;text-decoration:none}.article[data-v-150323c1] img.col-12{width:100%}.article[data-v-150323c1] img.col-6{width:50%}.article[data-v-150323c1] img.col-4{width:33%}.article[data-v-150323c1] img.col-3{width:25%}.dev-mode[data-v-150323c1] .img-wrapper{display:inline-block;position:relative}.dev-mode[data-v-150323c1] .img-wrapper.col-12{display:block;width:100%}.dev-mode[data-v-150323c1] .img-wrapper.col-6{display:inline-block;width:50%}.dev-mode[data-v-150323c1] .img-wrapper.col-4{display:inline-block;width:33%}.dev-mode[data-v-150323c1] .img-wrapper.col-3{display:inline-block;width:25%}.dev-mode[data-v-150323c1] .img-wrapper img{display:block;width:100%}.dev-mode[data-v-150323c1] .img-number{background:#f00c;border-radius:4px;color:#fff;font-size:14px;font-weight:700;left:8px;padding:4px 8px;pointer-events:none;position:absolute;top:8px;z-index:10}";
+
+const ____slug_Styles_C78LfoVH = [
+  ____slug__vue_vue_type_style_index_0_scoped_150323c1_lang
+];
+
+export { ____slug_Styles_C78LfoVH as default };
+//# sourceMappingURL=_...slug_-styles.C78LfoVH.mjs.map

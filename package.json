@@ -1,0 +1,18 @@
+{
+  "name": "cycle-code-site",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "dependencies": {
+    "formidable": "^3.5.4"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.8.0",
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.8.0"
+  }
+}

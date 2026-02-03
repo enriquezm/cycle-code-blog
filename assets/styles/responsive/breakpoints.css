@@ -1,0 +1,6 @@
+/* Breakpoint definitions as CSS custom properties */
+:root {
+  --breakpoint-mobile: 0;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+}

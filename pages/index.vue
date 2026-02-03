@@ -21,7 +21,7 @@ p {
 }
 
 .hero__title {
-  font-size: 8rem;
+  font-size: 2rem;
   margin: 0;
   max-width: 1400px;
   word-break: break-all;
@@ -61,5 +61,11 @@ p {
 
 .card-link:hover {
   animation: glitch 0.3s ease-in-out;
+}
+
+@media (min-width: 1084px) {
+  .hero__title {
+    font-size: 8rem;
+  }
 }
 </style>

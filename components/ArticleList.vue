@@ -36,7 +36,7 @@ const { data: articles } = await useAsyncData('articles', () =>
 }
 
 .card-link {
-  font-size: 72px;
+  font-size: 2rem;
   font-weight: bold;
   color: black;
   text-decoration: none;
@@ -44,6 +44,12 @@ const { data: articles } = await useAsyncData('articles', () =>
 
 .card-link:hover {
   animation: glitch 0.3s ease-in-out;
+}
+
+@media (min-width: 1084px) {
+  .card-link {
+    font-size: 8rem;
+  }
 }
 
 @keyframes glitch {
